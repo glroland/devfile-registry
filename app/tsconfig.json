@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@public/*": ["public/*"],
+      "@config/*": ["config/*"],
+      "@info/*": ["webpage_info/*"]
+    },
+    "allowJs": false,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "typeRoots": ["src/@types", "node_modules/@types"],
+    "types": ["node"],
+    "skipLibCheck": true
+  },
+  "include": ["next-env.d.ts", "**.*.js", "**.*.jsx", "**/*.ts", "**/*.tsx", "**/*.json"],
+  "exclude": [
+    ".github",
+    ".next",
+    ".nyc_output",
+    "coverage",
+    "docs",
+    "node_modules",
+    "out",
+    "src/util/server"
+  ],
+  "typedocOptions": {
+    "entryPoints": ["pages", "src"],
+    "out": "docs"
+  }
+}

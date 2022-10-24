@@ -1,0 +1,45 @@
+.card {
+  height: auto;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.cardHeader {
+  display: block;
+  height: 5rem;
+}
+
+.cardHeaderDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardImage {
+  width: auto;
+  height: auto;
+  max-width: 6rem;
+  max-height: 3rem;
+}
+
+.cardBody {
+  height: 5rem;
+  overflow: hidden;
+}
+
+.cardFooterTag {
+  margin: 0.125rem;
+}
+
+.text {
+  text-align: right;
+  color: var(--pf-global--Color--200);
+}
+
+.longDescription {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

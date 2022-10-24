@@ -1,0 +1,11 @@
+{
+  "title": "glroland.com Devfile Registry",
+  "bannerTitle": "Welcome to my super awesome Devfile Registry",
+  "bannerBody": "Validated and pre-baked stacks for developer consumption goodness",
+  "headerLinks": [{ "name": "MyPaaS", "link": "https://console-openshift-console.apps.ocp4.home.glroland.com" }],
+  "footerLinks": [
+    { "name": "Devfile.io", "link": "https://devfile.io/" },
+    { "name": "GitHub", "link": "https://github.com/devfile/registry" }
+  ],
+  "logo": "paas-logo.png"
+}
